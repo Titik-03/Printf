@@ -6,7 +6,7 @@
 /*   By: mgamal <mgamal@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/02 15:49:31 by mgamal            #+#    #+#             */
-/*   Updated: 2025/11/03 16:20:13 by mgamal           ###   ########.fr       */
+/*   Updated: 2025/11/03 16:56:14 by mgamal           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 static int	ft_putptrhex(unsigned long n)
 {
-	char	r;
+	int		r;
 	char	*base;
 	int		count;
 

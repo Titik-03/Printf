@@ -6,7 +6,7 @@
 /*   By: mgamal <mgamal@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/02 15:45:16 by mgamal            #+#    #+#             */
-/*   Updated: 2025/11/03 16:20:22 by mgamal           ###   ########.fr       */
+/*   Updated: 2025/11/03 16:56:19 by mgamal           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	ft_putluphex(unsigned int n)
 {
-	char	r;
+	int		r;
 	char	*base;
 	int		count;
 
