@@ -53,7 +53,7 @@ int	ft_printf(const char *format, ...)
 		{
 			i++;
 			if (!format[i])
-				break ;
+				break;
 			count += ft_check(format[i], args);
 		}
 		else
